@@ -12,6 +12,7 @@ public class ContaTerminal {
 		 
 		 System.out.println("Digite o Número da sua conta");
 		 cd.setnConta(sc.nextInt());
+		 sc.nextLine();
 		 
 		 
 		 System.out.println("Digite o Número da sua Agencia");
@@ -23,7 +24,7 @@ public class ContaTerminal {
 		 
 		 System.out.println("Digite o Saldo da sua conta");
 		 cd.setdSaldo(sc.nextDouble());		 
-		 
+	 
 		 cd.exibirInfos();
 	 }
 }
